@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webflow Assignment</title>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Montserrat:400,700","Roboto:400,400italic,700,700italic","Playfair+Display:400,400italic,700,700italic,900,900italic","Source+Sans+Pro:300,regular,600,700,900"]
+            }
+        });
+    </script>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="container">
+            <div class="logo">Webflow Assignment</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- About section -->
+<section class="about-section">
+    <div class="container">
+        <div class="section-heading">
+            <h2>About Us</h2>
+            <p>Learn more about our company</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Who We Are</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac hendrerit dolor. Mauris at ex vel mi consequat accumsan vel nec velit. Fusce ut nunc eget metus cursus lacinia. Nulla facilisi. Curabitur auctor arcu vitae sem tincidunt, ac accumsan magna placerat. Phasellus in efficitur lectus. Nulla facilisi. Fusce vel elit vitae leo dapibus aliquam.</p>
+                <p>Proin eget odio sapien. Vivamus ac risus leo. Morbi a aliquet risus. Sed ut lacinia ligula. Pellentesque tincidunt urna non sapien efficitur vestibulum. Nulla tempus, elit sed lacinia faucibus, velit mi consectetur mauris, id condimentum elit odio at velit.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/400x300" alt="About Us Image">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Feature section -->
+        <section class="feature-section">
+            <div class="container">
+                <div class="feature">
+                    <i class="feature-icon fas fa-laptop"></i>
+                    <h2 class="feature-heading">Responsive Design</h2>
+                    <p class="feature-description">Our websites look great on all devices, from desktops to smartphones.</p>
+                </div>
+                <div class="feature">
+                    <i class="feature-icon fas fa-cogs"></i>
+                    <h2 class="feature-heading">Customizable</h2>
+                    <p class="feature-description">Easily customize every aspect of your website to match your brand.</p>
+                </div>
+                <div class="feature">
+                    <i class="feature-icon fas fa-star"></i>
+                    <h2 class="feature-heading">High Performance</h2>
+                    <p class="feature-description">Optimized for speed and performance to provide the best user experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Card section -->
+        <section class="card-section">
+            <div class="container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x250" alt="Card Image">
+                    <h2 class="card-title">Creative Designs</h2>
+                    <p class="card-description">Our team of designers create visually appealing and unique designs that capture attention.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x250" alt="Card Image">
+                    <h2 class="card-title">Smooth Animations</h2>
+                    <p class="card-description">Add life to your website with smooth animations and transitions that engage your visitors.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x250" alt="Card Image">
+                    <h2 class="card-title">User-Friendly Interfaces</h2>
+                    <p class="card-description">We focus on creating intuitive and user-friendly interfaces to enhance the user experience.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Services section -->
+<section id="services" class="services-section">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Our Services</h2>
+            <p>Discover what we offer</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac hendrerit dolor.</p>
+            </div>
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac hendrerit dolor.</p>
+            </div>
+            <div class="service-card">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac hendrerit dolor.</p>
+            </div>
+            <!-- Add more service cards as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Contact section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us</p>
+        </div>
+        <div class="contact-details">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Street, City, Country</li>
+                    <li><i class="fas fa-phone-alt"></i> +1234567890</li>
+                    <li><i class="fas fa-envelope"></i> info@example.com</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h3>Send us a message</h3>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Webflow Assignment</div>
+            <p class="footer-text">Copyright © 2024 Webflow Assignment. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
